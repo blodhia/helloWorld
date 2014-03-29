@@ -1,0 +1,19 @@
+<!docttype html>
+<html>
+  <head>
+  	<title>Hello</title>
+  </head>
+  <body>
+  	<button id="silly">Do it</button>
+  	<div id="results"></div>
+  	
+  	<script src="js/zepto.js"></script>
+	<script>
+	$('#silly').click(function() {
+		$('#results').prepend('Hello World<br />');
+	});
+	
+	</script>  	
+  	
+  </body>
+</html>
